@@ -1,0 +1,7 @@
+[submodule "ese-coursera-course1"]
+	path = ese-coursera-course1
+	url = https://github.com/afosdick/ese-coursera-course1
+[submodule "ese-coursera-course2"]
+	path = ese-coursera-course2
+	url = https://github.com/afosdick/ese-coursera-course2.git
+	branch = master
