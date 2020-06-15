@@ -49,6 +49,36 @@ processor via the **private peripheral bus (PPB)**.
 ![computer_arch_harvard](./images/computer_arch_harvard.png)
 
 
+## I/O Ports
+
+* An **input port** is hardware on the microcontroller that allows information about the external 
+world to be entered into the computer.
+* **output port** to send information out to the external world.
+* An **interface*** is defined as the collection of the I/O port, external electronics, 
+physical devices, and the software, which combine to allow the computer to communicate 
+with the external world.
+
+In general, we can classify I/O interfaces into four categories:
+
+* **Parallel** - binary data are available simultaneously on a group of lines
+* **Serial** - binary data are available one bit at a time on a single line
+* **Analog** - data are encoded as an electrical voltage, current, or power
+* **Time** - data are encoded as a period, frequency, pulse width, or phase shift
+
+Ports on the TM4C123:
+
+![tm4c123_arch](./images/tm4c123_arch.png)
+
+LaunchpPad Evoluation Kit for TM4C123:
+
+![tm4c123_devboard](./images/tm4c123_devboard.png)
+
+Registers on the ARM Cortex M4
+
+![arm_cortexm4_registers](./images/arm_cortexm4_registers.png)
+
+
+
 ## Questions and Answer
 
 1. What is an embedded system?
@@ -82,6 +112,15 @@ Assume all MOSFETs are approximately the same size in mm2.
 
 * Flash ROM is higher density because it requires few transistors compared to RAM.
 
+7. What is the addressing mode used for?
 
+The addressing mode defines the format for the effective address for that instruction. In other words, it defines how the instruction will access the data it needs.
 
+8. Assume R3 equals 0x2000.0000 at the time LDR R2,[R3,#8] is executed. What address will be accessed? If R3 is changed, to what value will R3 become?
+
+0x2000.0008, R3 is not changed.
+
+9. Assume R3 equals 0x2000.0000 at the time LDR R2,[R3],#8 is executed. What address will be accessed? If R3 is changed, to what value will R3 become?
+
+0x2000.0000, and 8 is added to R3, it becomes 0x2000.0008.
 
