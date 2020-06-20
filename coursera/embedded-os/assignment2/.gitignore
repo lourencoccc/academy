@@ -1,0 +1,15 @@
+### Linux ###
+*~
+
+### Contiki ###
+symbols.c
+symbols.h
+
+### C ###
+*.map
+*.a
+
+### sky ###
+**/obj_sky/
+*.sky
+
