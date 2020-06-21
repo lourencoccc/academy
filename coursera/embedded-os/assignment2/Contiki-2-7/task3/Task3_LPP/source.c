@@ -48,6 +48,7 @@
 #include "dev/leds.h"
 
 #include <stdio.h>
+
 /*---------------------------------------------------------------------------*/
 PROCESS(example_broadcast_process, "BROADCAST example");
 AUTOSTART_PROCESSES(&example_broadcast_process);
@@ -64,6 +65,15 @@ static struct broadcast_conn broadcast;
 PROCESS_THREAD(example_broadcast_process, ev, data)
 {
   static struct etimer et;
+  uint32_t cpu, lpm, transmit, listen, time, radio;
+  uint32_t energy_transmit, energy_listen, energy_cpu, energy_lpm;
+  uint32_t energy_total;
+
+  static float SKY_MOTE_V = 3.600;
+  static float SKY_MOTE_I_RX = 23.000;
+  static float SKY_MOTE_I_TX = 21.000;
+  static float SKY_MOTE_I_CPU = 2.400;
+  static float SKY_MOTE_I_LPM = 0.021;
 
   PROCESS_EXITHANDLER(broadcast_close(&broadcast);)
 
@@ -81,6 +91,21 @@ PROCESS_THREAD(example_broadcast_process, ev, data)
     etimer_set(&et, CLOCK_SECOND * 4 + random_rand() % (CLOCK_SECOND * 4));
 
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&et));
+
+    cpu = energest_type_time(ENERGEST_TYPE_CPU);
+    lpm = energest_type_time(ENERGEST_TYPE_LPM);
+    transmit = energest_type_time(ENERGEST_TYPE_TRANSMIT);
+    listen = energest_type_time(ENERGEST_TYPE_LISTEN);
+    time = cpu + lpm;
+    radio = transmit - listen;
+   
+    energy_cpu = (cpu/RTIMER_SECOND) * SKY_MOTE_I_CPU * SKY_MOTE_V;
+    energy_transmit = (transmit/RTIMER_SECOND) * SKY_MOTE_I_TX * SKY_MOTE_V;
+    energy_listen = (listen/RTIMER_SECOND) * SKY_MOTE_I_RX * SKY_MOTE_V;
+    energy_lpm = (lpm/RTIMER_SECOND) * SKY_MOTE_I_LPM * SKY_MOTE_V;
+    energy_total = energy_cpu + energy_transmit + energy_listen + energy_lpm;
+
+    printf("energy_total: %lu\n", energy_total);
 
     packetbuf_copyfrom("Hello", 6);
     broadcast_send(&broadcast);
