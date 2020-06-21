@@ -1,0 +1,10 @@
+Energy Estimation
+Device: Sky Mote
+Time: about 5 min
+Data:
+RDC Driver, consumption
+ContikiMac, 582
+CX-MAC, 3233
+LPP, 3553
+Null_RDC, 24576
+X-MAC, 2594
