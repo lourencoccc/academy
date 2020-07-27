@@ -183,14 +183,16 @@ VTOL (Vertical take-off and langing) / hybrid
 
 * Take advantage of both of those worlds.
 * They get the advantage of the vertical takeoff and landing but with the forward flight efficiencies.
-* The hybrid attempts to take the best of both of those two with a very small, very efficient gas engine
-that would create an electrical energy - get better power density out of the amount of fuel
-you're carrying to be able to turn it into that electrical energy. 
+* The hybrid attempts to take the best of both of those two with a very small, 
+very efficient gas engine that would create an electrical energy - get better 
+power density out of the amount of fuel you're carrying to be able to turn it 
+into that electrical energy. 
 
 Eletrical
 
 * Advnatagens
-    * It's very convenient. You swap batteries in and out. So it's a user ease kind of thing
+    * It's very convenient. You swap batteries in and out. So it's a user ease 
+    kind of thing
     * that's very clean until you have a problem with the battery
 * Disvantages
 
@@ -209,7 +211,8 @@ Look the requirements
 
 * What do you need to do with the signal?
 * Is it a high bandwidth, high data rate, signal?
-* Is it something that can be stored on the aircraft and downloaded via an SD card later?
+* Is it something that can be stored on the aircraft and downloaded via an SD 
+card later?
 * What kind of range do you need?
 * What kind of power do you need?
 * What kind of spectrum do you have availability for?
@@ -224,18 +227,21 @@ Which of the following functions does GPS fulfill in UAS operations?
 * GPS enables navigation
 
 KC2.1 Question 2
-Which of the following best describes the meaning of “payload” in the context of typical commercial UAS operations?
+Which of the following best describes the meaning of “payload” in the context 
+of typical commercial UAS operations?
 
 * Any onboard cargo, such as a camera or specialty sensors 
 
 KC2.1 Question 3
 1/1 point (ungraded)
-Which of the following are the most common primary payloads on commercial drones?
+Which of the following are the most common primary payloads on commercial 
+drones?
 
 * High resolution onboard cameras 
 
  KC2.1 Question 4
-Which of the following are methods used to communicate between UAVs and ground stations? (Check all that apply.)
+Which of the following are methods used to communicate between UAVs and ground 
+stations? (Check all that apply.)
 
 * Satellite dishes within UAVs
 * Direct wireless links, such as Wi-Fi channels
@@ -251,7 +257,8 @@ The requirements for COTS (Commercial, Off the Shelf) drones include:
     * Is how long the drone needs to be in the air.
     the maximum flight time in the air 
 * Speed
-    *  Speeds average below 200 mph (322 kph) are typical even for the fastest COTS drones.
+    *  Speeds average below 200 mph (322 kph) are typical even for the fastest 
+    COTS drones.
 * Range
     * A combination of the drone's speed and endurance will determine the range. is the maximum distance the UAV can travel on a single flight
 * Altitude
@@ -285,10 +292,179 @@ Performance Requirements
 * Payloads
 * Range
 
-
 Current Ressearch & Developement
 
 * Goverment
 * Private
 * Comercial
 
+
+The RQ-11B  Reven
+
+Designed for:
+
+* Rapid deployment
+* Provides real-time full-motion vide
+* Sensor data to help soldiers develop:
+    * Situational awareness
+    * Enhance force protection
+    * Secure routes, points and areas on the battlefield.
+
+The battery driven electric motor
+
+* This power system provides versatility and economy for small drones.  
+* The down side of electric batteries is their relatively low energy-to-weight ratio.
+
+Fuel cells can store a vast amount of energy but are limited in their peak power output.
+
+Electric power is especially useful in quadcopters which use multiple fixed pitch rotors with rapid speed adjustments to power and control drone flight.
+
+
+Gas Powered Drone Benefits
+
+* Uses stronger, durable engine which extends life cycle
+* Increased weight, stable in adverse weather
+* Carry larger payload
+* Longer flight times & higher altitudes
+* Faster turnaround add fuel, not recharge battery
+
+
+Endurance and Range are key in the operational capability and performance of 
+different types of UAVs. ENDURENCE is maximum flight time and RANGE is maximum 
+distance the UAV can travel on a single flight. Both are interrelated and 
+determined by the aircraft’s speed. (Complete this sentence by selecting the 
+words in appropriate order below.)
+
+
+COTS applications have improved the operational and mission capabilities of the following sectors:
+
+* Law enforcement surveillance
+* Maritime drug interdiction
+* Border enforcement
+* Real estate sales
+
+
+
+Into the system ahead of time or possibly real-time and then the aircraft just 
+follows those points. The next step beyond automated is automation.
+Where now the aircraft is starting to perform functions that are 
+pre-programmed, but it's executing them on their -
+its own based on a timeline or based on certain responses that it's getting
+
+Whereas a fully autonomous system is going to be self-contained from takeoff to landing and all risk
+mitigation in between.
+
+Onboard electronic control systems:
+
+* Provide specific commands to navigate the aircraft
+* Other onboard control machinery is used to control power plants
+* Control other ancillary components such as:
+    * wireless communications systems for aircraft control.
+    * Manage the activities of payloads: sensors, cameras, and dispensers.
+
+Aircraft control systems convert navigation signals from either a remote controller or an on-board navigation system into commands to steer the aircraft directionally up-down, side-to-side and turning left or right. 
+
+Autonomous aircraft navigation systems use a variety of sensors designed to establish the aircraft’s location, and direction, so navigation decisions can be made based on pre-programmed routes and responsive algorithms guided by artificial intelligence (AI).
+
+
+Infused from autonomous guidance technologies:
+
+* Even small quadcopters are equipped with accelerometers, gyroscopes, and a  compass for navigation.
+
+
+In the energy sector, drones can be used to inspect transmission towers, storm restoration surveys, ground patrols, and site development and construction.
+
+
+Many types of autonomous technologies have migrated from military applications using artificial intelligence algorithms with:
+
+* Optical sensors to track and follow features for terrain avoidance based on  
+pre-programmed routes.
+* Navigation sensors to include accelerometers and gyroscopes to navigate the 
+vehicle.
+* On board electronic control systems to control power plants, and wireless 
+communications to multiple payloads such as sensors, cameras and dispensers.
+* On-board processing to analyze accumulated data and provide real-time aerial 
+images and maps to multiple locations. 
+
+
+LIDAR Data Collection
+
+* Emission of laser pulse
+* Record backscattered signal
+* Measure the time of flight x speed of light
+* Calculate platform position & altitude
+* Compute precise echo position
+* Used to produce 3D images
+
+
+ Lithium-ion batteries  are currently the best solution for 
+ high-power-and-energy applications. One of the most important new 
+ technologies will be in a light weight, long- lasting battery power source 
+ that would enable drones to fly for hours instead of minutes.
+
+**The strategic direction for the military and commercial drone markets is 
+autonomy**. The next generation of drones will have more efficient motors, 
+better onboard processors and software, more accurate sensors and built-in 
+compliance technology for safe, effective flight control. 
+
+The strategic direction for the military and commercial drone markets is autonomy.
+
+* The next generation of drones will have more efficient motors.
+* The next generation of drones will have better on-board processors and 
+software.
+* The next generation of drones will have more accurate sensors and built-in 
+compliance technology for safe, effective flight control.
+* The next generation of drones will have the ability to transmit real-time 
+data.
+
+Drones will operate within a UAS traffic management (UTM) system for 
+low-altitude airspace flight to ensure UAS don’t collide into buildings, 
+airplanes or one another. This UTM system would:
+
+* Provide continuous communication, navigation and surveillance
+* Provide warning and direction of drones of congestion or severe weather.
+* Enable automated delivery of goods, emergency services, and industrial and 
+agricultural applications.
+* Allow UAS operations to safely expand to scale and integrate into the 
+national air space. 
+
+
+The fifth-generation network, commonly known as the 5G network technology will 
+serve as an information conduit for drones over an ultra-high-speed, low 
+latency connection. Identify the advantages of this 5G evolution:
+
+* A wireless communication systems with greater bandwidth and connectivity, 
+and improved network coverage.
+* Allow for a greater precision in maneuvering, the quick transfer of 
+high-precision data, and back up communication infrastructure.
+* Enable drones to always stay connected with immense precision, and much 
+higher reliability for beyond line of sight operations.
+* More autonomous drone operations with drone swarms communicating with each  
+other and sending real-time data between the networked systems. 
+
+To summarize, we learned that the endurance and range of a drone are key 
+determinants for application to specific tasks. The most common power source 
+for small drones is the battery-driven electric motor, which provides 
+versatility and economy. Longer endurance drones use a gas powered internal 
+combustion engine. A drone’s payload capacity is limited by its 
+weight-carrying capability. The most common use of drones is to carry sensors, 
+and the most common sensor is the optical camera. Wireless capability provides 
+many methods of communicating from a remote controller to a drone. GPS is the 
+primary navigation tool used in drones of various sizes and a breakthrough 
+critical technology. The integration of drone technology is wide-ranging and 
+limitless due to COTS applications which reduces development time and cost. 
+One of the most important future technologies will be in power sources.
+
+One remaining challenge confronting the drone industry is privacy. Many drones 
+are equipped with cameras and other surveillance gear. There is little to 
+prevent private individuals have them buzz past bedroom windows and peeking 
+over fences. There are questions over how the police may use them too, and how 
+this would impact privacy.
+
+Drones will become more mainstreamed in the near future. There are still many 
+challenges that require technological and process solutions specifically in 
+safety and privacy issues. Emerging technologies will pave the way for faster 
+integration of drone systems into various industries, and increasing the ease 
+and efficiency of certain functions. Over the next few years, drone technology 
+will provide safer, more autonomous and quieter drones, as they gain 
+capabilities that will impact our daily lives.
