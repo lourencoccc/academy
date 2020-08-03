@@ -468,3 +468,276 @@ integration of drone systems into various industries, and increasing the ease
 and efficiency of certain functions. Over the next few years, drone technology 
 will provide safer, more autonomous and quieter drones, as they gain 
 capabilities that will impact our daily lives.
+
+
+## Module 4 - Making a Business Case
+
+Systems 
+    
+* Engineering
+* Lifecycle
+* Acquisition Process
+
+Acquisitions Basics
+    
+* Value
+* Cost-Benefit analysis (CBA)
+* Return on Investment (ROI)
+
+Considering alternative technologies and vendors when making UAS acquisitions decisions.
+
+ How Lucrative is Drone Business?
+
+* The regulations take time.
+* When you are out the regulations, that could become very problematic.
+* The market is stabilizing.
+* It for the long haul, this a great industry to be in.
+* You have to have patience.
+* You have to have a very disciplined business model.
+* You need to really do your research.
+* It's tough to be a master of all trades in this industry.
+    * So getting the right group of people, and 
+    nvolved in it and networking - I can't stress that enough - is networking. 
+    * This industry is really a great network of people and if you get with 
+    the right people, work with them, stay in touch with them, and 
+    help each other.
+
+
+### The Systems Lifecycle: Theoretical Foundations
+
+A purposeful flying of a drone can be:
+
+* for intelligence, surveillance, reconnaissance (ISR)
+* Or delivery a crictical resources, like [Zipline](http://www.flyzipline.com/)
+
+Importatnt references:
+
+* [NASA Systems Engineering Handbook](https://www.nasa.gov/connect/ebooks/nasa-systems-engineering-handbook)
+* [FAA Systems Engineering Manual](https://www.faa.gov/about/office_org/headquarters_offices/ang/offices/tc/library/v&vsummit/v&vsummit2012/Presentations/k.%20gill/vv%20summit%20brief_kimberly%20gill.ppsx)
+* [Systems Engineering Guide for Systems of Systems](https://www.acq.osd.mil/se/docs/SE-Guide-for-SoS.pdf)
+
+
+Systems are usually larger than the sum of their parts since the interplay 
+among system components usually provides a synergistic output that achieves 
+multiple objectives in more efficient and optimized ways.
+
+
+Requirements based desing
+
+* Electric motors are fantastic. Brushless motors today are super reliable.
+    * They're also quiet compared to a turbine engine or a gas engine, piston engine.
+    * But at the same time they may not have as much endurance because they require electricity.
+    * Batteries are heavy. The energy density of a battery may not be the same 
+    as avgas or gasoline or aybe even the new hybrid hydrogen fuel cell 
+    propulsion systems.
+* Solar systems are also fantastic
+    * But they're not quite maybe where we want them to be.
+    * They're certainly supplementing endurance for a lot of aircraft.
+    * In some cases they are staying up there a long time but you're having to 
+    sacrifice other things such as payload and maybe airframe type.
+    * That airframe for a solar-paneled aircraft may not be as durable or 
+    robust or have, you know, the aggressive performance
+
+
+One of the interesting uses of unmanned aircraft systems is using them almost as mobile infrastructure.
+
+
+When acquiring a system, consider the entire lifecycle from initial acquisition and development to the operation and maintenance (O&M), and retirement of the system. This serves the purpose of overall performance and meeting the desired needs while minimizing costs. A simple representation of a systems engineering acquisition and operation timeline is shown below:
+
+ ![acquisition phases](./images/acquisition_phases.png)
+
+
+### Systems Acquisition Process
+
+A typical systems acquisition process consists of the following phases:
+
+* Strengths, Weaknesses, Opportunities, and Threats (SWOT) Analysis
+* Needs Assessment
+* Requirements Analysis
+* Capabilities Analysis
+* Alternatives Analysis
+* Acquisition
+
+The analysis would lead to the identification of possible risks, failure modes, and required corrections.
+
+Insurance agents are starting to use that, not only for roof inspections, but also after a disaster.
+Crop damage is a really big part for
+insurance uses with unmanned aircraft.
+
+
+**System Acquisition Process**
+
+**SWOT Analysis**
+Determine your organization’s
+
+* Strengths
+* Weaknesses
+* Opportunities
+* Threats
+
+**Needs Assessment**
+Provide a detailed, comprehensive and quality imagery view of the exteriors of properties for sale or rent for
+
+* Marketing/promotion purposes,
+* Better disclosure of the condition of the property to avoid dispute/litigation
+* Obtain a competitive advantage over rival firms.
+
+
+**Requirements Analysis**
+
+* A 3-D comprehensive view of properties disclosing the features and condition 
+from outside.
+* Customer must be able to see 360-degree aerial view including the façade and 
+roof and the front and backyard of the property shown on a screen in the 
+format of a video.
+* The cost of developing the aerial view video should not exceed a certain 
+percentage of the property sale value.
+
+**Capabilities Analysis**
+
+* An air vehicle mounted with a high-resolution video camera
+* Ground control station
+* Imagery collection and data link
+* Data storage and retention for editing, video production, and retrieval
+
+**Alternatives Analysis**
+
+* Alternative 1: Do nothing (too expensive or no budget)
+* Alternative 2: In-house COTS solution which includes training and personnel, or further analysis to assess competing bids.
+* Alternative 3: Outsource
+
+
+https://www.mindtools.com/pages/article/newTMC_05.htm
+
+
+Thus, any UAV/UAS acquisition necessitates a systematic alternatives analysis based on a SWOT analysis, need, requirements, and capability assessments.
+
+**Strengths**: What does your organization consider providing as unique or advantageous over other organizations that are in the same industry? Consider the ideas, patents, service capabilities, technology edge, accessibility to low-cost resources, etc.
+
+**Weaknesses**: What can you improve? For example the cost of obtaining resources or providing services, quality of service, efficiency, profit margin, physical/cyber security, reputation, product differentiation, etc.
+
+**Opportunities**: What are the new social trends, government policy, or technology trends? How can you leverage them to increase sales/services, enhance quality, decrease costs, etc.?
+
+**Threats**: What are the advantages of your competitors? What are government policies, societal, industrial, and/or technological trends that threaten your profit margin, service/product quality, delivery and/or efficiency?
+
+**Questions**
+
+Which of the following activities does not fall under the phase of Alternatives Analysis?
+
+* Life cycle costing
+* ROI
+* CBA
+
+Which of these are considerations under a Requirements Analysis?
+
+* Type of data to be gathered
+* Type of deliverable to be generated with data
+* Level of accuracy of data to be gathered
+* Speed with which data must be gathered and/or processed
+
+**Costs & Benefits**
+
+A Cost-Benefit Analysis (CBA) is a business decision-making process used to quantify the investment costs of a new tool, technology, or service.  
+
+In CBA, the Direct and Indirect Costs, Intangible Costs, Opportunity Costs, and Costs of Potential Risk are assessed and compiled.
+
+**Direct Costs**
+
+* Initial investment cost
+* Operations and Maintenance (O&M) costs
+* Recruitment, salaries, benefits, training, licensing, insurance, taxes,etc. 
+
+**Indirect Costs**
+
+* Utilities and overhead i.e. administration, personnel, and security costs
+
+**Intangible Costs**
+
+* Maintaining employee morale
+* Sustaining brand value, etc.
+
+**Opportunity Costs**
+
+* Loss of business or revenue by opting for a different solution, i.e. loss of 
+customers who prefer conventional service or loss of rental income
+
+**Costs of Risks**
+
+* Costs of accidents, system failures, improper staffing, etc.
+
+Benefits include all direct and indirect revenues and intangible benefits.
+ In CBA, the following benefits are quantified in terms of a common metric, usually in a currency :
+
+**Tangible Benefits**
+
+* Direct and indirect revenues
+
+**Intangible Benefits**
+
+* Efficiency, employee safety and morale, and customer satisfaction
+
+**Societal Benefits**
+
+* Improved air quality, increase in productivity, increase in Gross Product
+per Capita, etc. (usually for non-profits)
+
+https://www.investopedia.com/terms/c/cost-benefitanalysis.asp
+
+
+**ROI**
+
+The Return-on-Investment (ROI) method calculates the profits received based on the investment. For example, the net profits of an investment are divided by total cost.
+
+https://www.entrepreneur.com/encyclopedia/return-on-investment-roi
+
+
+**Real World Case**
+
+https://www.doi.gov/aviation/uas
+https://www.doi.gov/
+https://www.doi.gov/whoweare
+https://www.doi.gov/sites/doi.gov/files/uploads/DOI_UAS_Integration_Strategy_2015-2020.pdf
+https://www.doi.gov/pressreleases/interior-announces-2017-drone-mission-report
+
+
+References
+
+Aerotas. (2017) “How can surveyors grow without hiring?” Rights reserved. Retrieved from https://www.aerotas.com/grow-without-hiring/
+
+Ashby, W.R. (1979). Introduction to cybernetics. Massachusetts: Methuen.
+
+Bertalanffy, L. v. (1969). General system theory. New York: George Braziller, Inc.
+
+FAA (June 2018) Federally Approved UAS Aircraft and Specifications. https://drive.google.com/file/d/1WXUkcCUpAsnmXkaxPP1MCirrLGSiCRHb/view
+
+Sullivan, W.G., Wicks, E.M., and Koelling, C. P. (2018). Engineering economy, 16th ed. London: Pearson.
+
+Terwilliger, et al. (2015). UAS Capabilities and Performance Modeling for Application Analysis. Creative Commons. http://commons.erau.edu/publication/493
+
+
+### Module 5 - Regulatory Framework
+
+
+Review
+
+* Regulations
+* Lagislaion & Complience
+
+Assess Risk Factors
+
+* Safety
+* Security
+* Privacy
+* Public Perception
+
+Assessment
+
+* Operational Risk
+* Mitigation
+
+counter-drone technologies
+
+
+
+
+
