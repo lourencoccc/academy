@@ -739,5 +739,50 @@ counter-drone technologies
 
 
 
+So detect and avoid is the technology where the aircraft has to be able to -
+the unmanned aircraft - has to detect manned aircraft and then be able to relay that
+information down to the remote pilot, so that they can make corrective actions to avoid from hitting them.
 
+FAA Drone Safety Tips
+
+    Register your drone
+    Review the rules
+    Fly at or below 400 feet (122 m)
+    Keep the drone within line of sight
+    Be aware of FAA Airspace Restrictions
+    Respect privacy
+    Never fly near other aircraft, especially near airports
+    Never fly over groups of people, public events, or stadiums
+    Never fly near emergencies such as fires or hurricane recovery efforts
+    Never fly under the influence of drugs or alcohol
+
+Counter-UAS Technology
+
+There's some very simple fixes out there - simple encryption,
+plug-and-play encryption. We work with a company in Israel called Regulus that
+does very simple plug-and-play encryption. It is very, very effective and
+it's very flexible because all you need to do is plug it in - module on the
+aircraft, module on the ground control station, module at every radio node and
+you're good to go.
+
+
+The most popular drone detection techniques are radar, radio frequency (RF) detection, electro-optical (EO) which detects drones based on their visual signature, and infrared (IR) sensors that detect heat signatures. The most effective interdiction technique is jamming.  This disrupts the radio frequency link between the drone and its operator by generating large volumes of RF output.
+
+Another technique is spoofing, which takes control of the targeted drone by hijacking the communications link.
+
+
+Counter-drone technology will provide a safer alternative in dealing with drone breaches, disruptions and safety violations. In the four questions that follow, select the correct C-UAS technology for each description. 
+
+
+**Infrared** sensors detect heat signatures and provide an early warning alert.
+**Spoofing** hijacks the communications link and takes control of the targeted drone.
+**Jamming** disrupts the radio frequency link between the drone and its operator.
+**Eletrical-optical** sensors detect drones based on their visual signature.
+
+
+
+Module 6
+
+
+**Autonomous** drones and flight system have the capability to operate using onboard computers and sensors that can fly without direct human input. (Type your answer below, paying attention to correct spelling. Hint: 10 letters.)
 
