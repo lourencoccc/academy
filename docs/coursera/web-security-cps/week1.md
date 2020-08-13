@@ -3,7 +3,7 @@
 Why Connect Embbed Systems?
 
 * Standalone Embedded Systems
-* COmplex Devices
+* Complex Devices
 
 Web Connectivity
 
@@ -25,7 +25,7 @@ Web Connectivity: The Ugly
     * Memory Consuption
     * Cryptographic Computation Costs
 
-What is WWWW?
+What is WWW?
 
 * The internet Enables WWW
 * WWW FAcilitates interaction
@@ -137,7 +137,7 @@ Link Layer
     * Framing
     * Media Access Control
 
-* Exmpls ARP, Ethernetm WIFI
+* Exmples ARP, Ethernetm WIFI
 
 Overview
 
