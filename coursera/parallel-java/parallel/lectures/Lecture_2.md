@@ -99,6 +99,7 @@ or about ensuring that parallel accesses to data collections are properly synchr
 1. [Article on "Processing Data with Java SE 8 Streams"](http://www.oracle.com/technetwork/articles/java/ma14-java-se-8-streams-2177646.html)
 2. [Tutorial on specifying Aggregate Operations using Java streams](https://docs.oracle.com/javase/tutorial/collections/streams/)
 3. [Documentation on java.util.stream.Collectors class for performing reductions on streams](http://docs.oracle.com/javase/8/docs/api/java/util/stream/Collectors.html)
+4. [Article on "Processing Data with Java SE 8 Streams Part2](https://www.oracle.com/technical-resources/articles/java/architect-streams-pt2.html)
 
 ## 2.5 Determinism and Data Races
 

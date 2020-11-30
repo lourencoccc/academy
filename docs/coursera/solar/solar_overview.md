@@ -10,6 +10,7 @@ Description: Interactive database and supporting information reporting meteorolo
 [Differences between wind power and solar energy](https://www.directenergy.com/learning-center/differences-between-wind-solar-energy)
 
 
+[How Solar Cells Work](https://www.acs.org/content/acs/en/education/resources/highschool/chemmatters/past-issues/archive-2013-2014/how-a-solar-cell-works.html)
 
 1. Where were Solar cells first produced?
 The first solar cell was created at Bell Labs in New Jersey
@@ -84,3 +85,32 @@ Select all solar energy incentives from the list below.
 * Cash rebates
 * Accelerated depreciation
 * Tax credits
+
+
+https://solarpoweredblog.com/on-grid-vs-off-grid-solar-systems/
+
+https://solarpoweredblog.com/on-grid-vs-off-grid-solar-systems/
+
+https://www.solarpowerauthority.com/grid-tied-off-grid-hybrid-solar-system-right/
+
+
+1. When added to crystalline silicon which element gives a negative charge?
+
+Correct! Phosphorus creates a negative charge when added to crystalline silicon.
+
+2. A String Inverter has one or more high DC voltage inputs and outputs 208 or 240 VAC.
+
+Correct! A string inverter outputs 208 or 240 VAC.
+
+3. hen bolting mounting racks to a roof, they must be attached to the roof rafters or trusses.
+
+Correct! Mounting racks must be secured to the roof, which is typically accomplished by bolting to the roof rafters or trusses.
+
+4. Ground mounting provides more options than roof mounting.
+
+Correct! There are far more configuration options available for ground mount solar PV systems, as opposed to roof mounting.
+
+5. A ballasted mounting system prevents roof penetration on a flat roof.
+
+Correct! Ballasted systems are held in place using weight instead of roof penetrations.
+
