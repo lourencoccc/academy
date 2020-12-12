@@ -114,3 +114,78 @@ Correct! There are far more configuration options available for ground mount sol
 
 Correct! Ballasted systems are held in place using weight instead of roof penetrations.
 
+ For a while there was a lot of increase in leasing of solar panels, and now today in the last 20 years, more people are just owning them. There are still leases and there are power purchase agreements. Leasing is where you have an array on your roof but you don't own it, you're actually paying some leasing company and they have to do the maintenance on it. But a lease is usually a fixed cost per month. A power purchase agreement or PPA is where you pay per kilowatt hour.
+
+
+### Installations by Ownership
+
+* **Direct-own**: more people are just owning them
+* **Lease**: Leasing is where you have an array on your roof but you don't own it, you're actually paying some leasing company and they have to do the maintenance on it.
+* **Poewer Purchase Agreement (PPA)**: is where you pay per kilowatt hour.
+
+![images](images/solar_install_by_ownership_type.PNG)
+
+![images](images/solar_install_by_ownership_type2.PNG)
+
+### Benefits of Solar PV Ownership
+
+* Outright purchase and ownership attributes all the financial
+benefits and risks to the owner
+* Maximize financial benefits if grants and Investment Tax Credit (ITC) can be used.
+* Renewable energy credits can be sold
+* Businesses can  depreciate the solar system asset
+
+### Benefits of Purchase Power Agrreements (PPA) and Leasing
+
+* PPAs and Leasing
+    * Bothg assign the risk and a major portion of the financial benefits to third party
+    * Usually no money down
+* PPA
+    * Pay per Kilowatt-hour
+    * Increasing in popularity  with community solar projects
+
+### Rasons for Solar Adoption
+
+* Homeowners want to go solar because they:
+    * feel beholden to the utility company (lack of control)
+    * want to be green
+    * want the last gadget
+    * see that neighbors have it
+    * want electricity when the utility power is out
+    * want to save money
+*  Business owners want to save maney by controlling energy costs
+
+### Installation Costs
+
+* Hardware
+* Labor
+* Overhead
+* New equipament (i.e fuse box upgrade)
+* Post Installation
+* Locally licensed electrician
+* Large equipament (i.e materials lift or excavator)
+
+### Incentives
+
+* Grants
+* Tax credits
+* Accelerated depreciation
+* Tax exemption
+    * Per municipality
+
+### Calcualating System Cost to End User
+
+*Install cost* without grant, federeal tax credit, state tax credits, and depreciation (comercial only)
+**plus** *estimated manitence costs* (est $100/yr residential)
+**is equals** to *System Cost to End User*
+
+
+**For silicon the production goes down about 0.5 % per year.**
+
+
+### Calculating KWh Production
+
+(*System cost to end user*) **by** (*25-year-production*) **is equals** *Cost per KWh*
+
+
+

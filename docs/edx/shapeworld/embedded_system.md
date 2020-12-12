@@ -124,3 +124,38 @@ The addressing mode defines the format for the effective address for that instru
 
 0x2000.0000, and 8 is added to R3, it becomes 0x2000.0008.
 
+
+### Lab 2
+
+Useful links:
+
+https://www.keil.com/demo/eval/armv4.htm
+
+
+## C3 Eletronics
+
+V = I x R
+
+Power = Voltage * Current
+
+Energy = Power * Time
+
+
+P = V * I
+Power = Voltage  * Current
+
+P = V2 / R
+Power = Voltage2 / Resistance           
+
+P = I2 * R
+Power = Current2 * Resistance
+
+The energy (E in joules) stored in a battery can be calculated from voltage (V in volts), current (I in amps), and time (t in seconds). In a manner similar to power, energy has neither a polarity nor a direction.
+
+E = V * I * t 
+Energy = Voltage  * Current  * time
+
+E = P * t
+Energy = Power  * time
+
+![](images/)
