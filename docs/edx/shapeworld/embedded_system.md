@@ -159,3 +159,93 @@ E = P * t
 Energy = Power  * time
 
 ![](images/)
+
+
+## C6 Microcontroller Ports
+
+I/O pins on Tiva TM4C  microcontrollers have a wide range of alternative functions:
+
+* UART - Universal asynchronous receiver/transmitter
+    * Can be used for serial communication between computers.
+    * It is asynchronous and allows for simultaneous communication in both directions.
+* SSI - Synchronous serial interface
+    * It is alternately called serial peripheral interface (**SPI**). 
+    * It is used to interface medium-speed I/O devices. 
+    * In this book, we will use it to interface a graphics display. 
+    * We could use SSI to interface a digital to analog converter (**DAC**) or a secure digital card (**SDC**).
+* I2C - Inter-integrated circuit
+    * It is a simple I/O bus that we will use to interface low speed peripheral devices. 
+    * Input capture and output compare will be used to create periodic interrupts and measure period, pulse width, phase, and frequency.
+* Timer - Periodic interrupts, input capture, and output compare
+* PWM - Pulse width modulation
+    * Its outputs will be used to apply variable power to motor interfaces.
+    * In a typical motor controller, input capture measures rotational speed, and PWM controls power.
+    * A PWM output can also be used to create a **DAC**. 
+* ADC - Analog to digital converter, measure analog signals
+    * It will be used to measure the amplitude of analog signals and will be important in data acquisition systems.
+* Analog Comparator - Compare two analog signals
+    * The analog comparator takes two analog inputs and produces a digital output depending on which analog input is greater. 
+* QEI - Quadrature encoder interface
+    * It can be used to interface a brushless DC motor
+* USB - Universal serial bus
+    *  is a high-speed serial communication channel. 
+* Ethernet - High-speed network
+    * It is a port that can be used to bridge the microcontroller to the Internet or a local area network
+* CAN - Controller area network
+    * It creates a high-speed communication channel between microcontrollers and is commonly found in automotive and other distributed control applications.
+
+
+
+```C
+// Subroutine to initialize port F pins for input and output
+// PF4 is input SW1 and PF2 is output Blue LED
+// Inputs: None
+// Outputs: None
+// Notes: ...
+
+void PortF_Init(void){ 
+    
+    volatile unsigned long delay;
+
+  SYSCTL_RCGC2_R |= 0x00000020;     // 1) activate clock for Port F 
+  //Each device has a separate clock that can be turned on.
+ //And so we're going to set bit 5 in this clock register to enable the
+ //clock for port F. It takes 3 to 5 cycles for the clock to stabilize.
+  delay = SYSCTL_RCGC2_R;           // allow time for clock to star
+  GPIO_PORTF_LOCK_R = 0x4C4F434B;   // 2) unlock GPIO Port F
+  GPIO_PORTF_CR_R = 0x1F;           // allow changes to PF4-0
+  // only PF0 needs to be unlocked, other bits can't be locked
+  GPIO_PORTF_AMSEL_R = 0x00;        // 3) disable analog on PF
+  GPIO_PORTF_PCTL_R = 0x00000000;   // 4) PCTL GPIO on PF4-0
+  GPIO_PORTF_DIR_R = 0x0E;          // 5) PF4,PF0 in, PF3-1 out
+  GPIO_PORTF_AFSEL_R = 0x00;        // 6) disable alt funct on PF7-0
+  GPIO_PORTF_PUR_R = 0x11;          // enable pull-up on PF0 and PF4
+  GPIO_PORTF_DEN_R = 0x1F;          // 7) enable digital I/O on PF4-0
+} 
+```
+
+
+https://www.embedded.com/device-registers-in-c/
+https://microcontrollerslab.com/use-gpio-pins-tm4c123g-tiva-launchpad/
+
+http://users.ece.utexas.edu/~valvano/Volume1/E-Book/C6_MicrocontrollerPorts.htm
+
+main     Turn on the clock for Port F
+               Clear the PF4 and PF2 bits in Port F AMSEL to disable analog
+               Clear the PF4 and PF2 bit fields in Port F PCTL to configure as GPIO
+               Set the Port F direction register so
+                                PF4 is an input and
+                                PF2 is an output
+               Clear the PF4 and PF2 bits in Port F AFSEL to disable alternate functions
+               Set the PF4 and PF2 bits in Port F DEN to enable digital
+               Set the PF4 bit in Port F PUR to activate an internal pullup resistor
+               Set the PF2 bit in Port F DATA so the LED is initially ON
+loop       Delay about 100 ms
+                Read the switch and test if the switch is pressed
+                If PF4=0 (the switch is pressed),
+                                toggle PF2 (flip bit from 0 to 1, or from 1 to 0)
+                If PF4=1 (the switch is not pressed),
+                                set PF2, so LED is ON
+                Go to loop
+
+https://reference.digilentinc.com/reference/instrumentation/digital-discovery/specifications
