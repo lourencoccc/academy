@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>C7_SOS</TargetName>
+      <TargetName>SwitchLight</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <TargetOption>
@@ -45,7 +45,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\</OutputDirectory>
-          <OutputName>C7_SOS</OutputName>
+          <OutputName>SwitchLight</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
@@ -403,7 +403,7 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Source</GroupName>
+          <GroupName>Source code</GroupName>
           <Files>
             <File>
               <FileName>startup.s</FileName>
@@ -414,6 +414,16 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Object code</GroupName>
+          <Files>
+            <File>
+              <FileName>texas.o</FileName>
+              <FileType>3</FileType>
+              <FilePath>.\texas.o</FilePath>
             </File>
           </Files>
         </Group>
